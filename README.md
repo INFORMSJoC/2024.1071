@@ -24,7 +24,7 @@ https://doi.org/10.1287/ijoc.2024.1071.cd
 Below is the BibTex for citing this snapshot of the repository.
 
 ```
-@misc{CodeBPPMCF,
+@misc{DLM25,
   author =        {Maxence Delorme and Wendy Liu and David Manlove},
   publisher =     {INFORMS Journal on Computing},
   title =         {Mathematical models and exact algorithms for kidney exchange problems with immunosuppressants},
