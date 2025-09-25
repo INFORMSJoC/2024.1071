@@ -1,6 +1,6 @@
 [![INFORMS Journal on Computing Logo](https://INFORMSJoC.github.io/logos/INFORMS_Journal_on_Computing_Header.jpg)](https://pubsonline.informs.org/journal/ijoc)
 
-# ILP models for the Bin Packing Problem with Minimum Color Fragmentation
+# Mathematical models and exact algorithms for kidney exchange problems with immunosuppressants
 
 This archive is distributed in association with the [INFORMS Journal on
 Computing](https://pubsonline.informs.org/journal/ijoc) under the [Creative Commons Attribution (CC BY)](LICENSE).
