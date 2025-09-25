@@ -87,7 +87,9 @@ Once compiled, the following command can be used to run the algorithm:
 - ./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "B" for the 16 first approaches
 - ./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "L" "B" for the next 2 approaches
 - ./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "B" "P" "S" for the last 2 approaches
+
 where
+
 - PROGRAM is the name of the compiled software 
 - ./PATH_INSTANCE is the relative path of the folder where the instance to solve is located
 - NAME_INSTANCE is the name of the instance to solve
