@@ -38,7 +38,7 @@ Below is the BibTex for citing this snapshot of the repository.
 ## Description
 
 The goal of this software is to evaluate different exact approaches to solve the Kidney Exchange Problem with Reserve Arcs (KEP-RA) and the Kidney Exchange Problem with Half-Compatible Arcs (KEP-HCA), 
-and also to evaluate the number of transplants enabled by each reserve and half-compatible arc in various settings.
+and also to evaluate the number of transplants enabled by each reserve/half-compatible arc in various settings.
 
 ## Folder organization
 
@@ -67,7 +67,7 @@ The different folders correspond to the following methods in our paper:
 | HCA/1_CYCLE_HCA | CF-HCA |
 | HCA/1_CYCLE3_HCA | CF-VG+PICORA-CG |
 
-## Details of code
+## Code description
 
 All algorithms are coded in C++ and part of our methods require the commercial solver Gurobi (we used version 11.0.2). The files have the following contents:
 
@@ -84,9 +84,9 @@ All algorithms are coded in C++ and part of our methods require the commercial s
 ## Running the software
 
 Once compiled, the following command can be used to run the algorithm:
-	./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "B" for the 16 first approaches
-	./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "L" "B" for the next 2 approaches
-	./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "B" "P" "S" for the last 2 approaches
+- ./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "B" for the 16 first approaches
+- ./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "L" "B" for the next 2 approaches
+- ./PROGRAM "./PATH_INSTANCE" "NAME_INSTANCE" "./PATH_AND_NAME_OUTPUT_GENERAL" "K" "B" "P" "S" for the last 2 approaches
 where
 - PROGRAM is the name of the compiled software 
 - ./PATH_INSTANCE is the relative path of the folder where the instance to solve is located
